@@ -1,0 +1,70 @@
+.list {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.allTasks>strong {
+  color: var(--blue);
+  font-size: 0.875rem;
+}
+
+.allTasks>span {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.doneTasks>strong {
+  color: var(--purple);
+  font-size: 0.875rem;
+}
+
+.doneTasks>span {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.emptyList>img {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.emptyList>p {
+  color: var(--gray-300);
+  font-size: 1rem;
+  display: block;
+  line-height: 1.5rem;
+}
+
+.emptyList>strong {
+  color: var(--gray-300);
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
