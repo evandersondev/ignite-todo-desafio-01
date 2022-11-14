@@ -24,9 +24,7 @@ export function Item({
     onHandleDeleteTaskById(id)
   }
 
-  function updateStatusTask(event: MouseEvent<HTMLButtonElement>) {
-    event.preventDefault()
-
+  function updateStatusTask() {
     onHandleChangeTaskStatus(id)
   }
 
